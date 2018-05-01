@@ -1,0 +1,333 @@
+body{
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	color: #b1b5b7;
+	font-family: "Monserrate", "Arial";
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+/*ASIDE*/
+.aside{
+	width: 15%;
+	margin: 180px 2% 0 2%;
+	display: flex;
+	flex-direction: column;
+}
+
+.aside .square{
+	width: 70px;
+	height: 70px;
+	padding:  2%;
+	margin-left: 25%;
+}
+
+.aside .first-color, .aside .second-color, .aside .third-color {
+	font-size: 1.6em;
+	margin-top: 1%;
+	margin-bottom: 15%;
+	margin-left: 15%;
+}
+
+.light-bleu{
+	background-color: #02b3e4;
+}
+
+.dark-bleu{
+	background-color: #2d3c49; 
+}
+
+.bleu{
+	background-color: #7d97ad;
+}
+
+/*SECTION*/
+.main{
+	width: 75%;
+}
+
+.img-section{
+	margin-top: 4%;
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/proj.png);
+}
+
+/*HEADER*/
+.header{
+	width: 100%;
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: row;
+	margin: 5% 0 0;
+}
+
+.header img{
+	background-image: url("../img/fotoPerf.jpg");
+}
+
+hr{
+	width: 100%;
+	height: 3px;
+	background: #b1b5b7;
+}
+
+.texto h1{
+	font-size: 2em;
+	letter-spacing: 2.5px;
+	font-weight: 100;
+	color: #7d97ad;
+	font-weight: 100;
+}
+
+.texto h3{
+	letter-spacing: 2.5px;
+	font-weight: 100;
+}
+
+.header .texto{
+	width: 90%;
+	text-align: right;
+	line-height: 20px;
+}
+
+.header .me{
+	width: 120px;
+	border-radius: 50%;
+	height: 120px;
+}
+
+.featured{
+	margin: 5% 1% 1% 1%;
+	font-weight: 100;
+	font-size: 2.5em;
+}
+
+/*GALLERY*/
+.gallery{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.proj{
+	width: 31%;
+	height: 200px;
+}
+
+.proj .photo{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.first-proj .photo{
+	background-image: url(../img/animal.png);
+}
+
+.second-proj .photo{
+	background-image: url(../img/pixel.png);
+}
+
+
+.third-proj .photo{
+	background-image: url(../img/mem.png);
+}
+
+
+.second-proj{
+	margin-left: 3.5%;
+	margin-right: 3.5%;
+}
+
+.proj .page{
+	text-align: center;
+	margin: 0 0 20% 0;
+}
+
+.proj a:link{
+	color: 	#30577c;
+	text-decoration: none;
+}
+
+.proj a:hover{
+	color: #b1b5b7;
+}
+
+.proj h2{
+	color: 	#30577c;
+	text-align: center;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin-bottom: 1%;
+}
+
+.proj p{
+	overflow: hidden;
+	cursor: pointer;
+}
+
+/*FOOTER*/
+footer{
+	margin: 15% 5% 5% 19%;
+	width: 75%;
+}
+
+footer ul{
+	text-align: center;
+	list-style-type: none;
+	}
+
+footer ul li{
+	display: inline;
+	margin: 2% 3%;
+	padding: 2px 10px;
+	letter-spacing: 3px;
+	}
+
+footer a{
+	text-decoration: none;
+	color:  #b1b5b7;
+}
+
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 700px){
+	.featured{
+		font-size: 14px;
+	}
+
+	.main{
+		width: 100%;
+		margin-left: 0 auto;
+		margin-right: 0 auto;
+	}
+
+	.gallery{
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.proj{
+		width: 100%;
+		margin: 15% 0;
+	}
+
+	.proj:first-child{
+		margin-top: 1%;
+	}
+
+	.img-section{
+		height: 250px;
+	}
+
+	.container{
+		font-size: 14px;
+		width: 80%;
+		margin: 0 auto;
+		flex-direction: column;
+	}
+
+	.header .me{
+		width: 50px;
+		height: 50px;
+	}
+
+	.header .texto{
+		height: 50px;
+		line-height: 5px;
+	}
+
+	.container .aside .first-color, .container .aside .second-color, .container .aside .third-color {
+	 	font-size: 14px;
+		margin-left: 20px;
+	 }
+
+	.container .aside{
+		width: 75%;
+		display: grid;
+		grid-template-columns: 25% 25% 25% ;
+		grid-template-rows: 25% 25% 25%;
+		grid-gap: 12%;
+		padding: 2%;
+		margin-top: 5%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.square {
+   		width: 48px;
+    	height: 48px;
+    	padding: 2%;
+    	margin: 0;
+	}
+
+	.aside .first-color{
+		order: 4;
+	}
+
+	.aside .second-color{
+		order: 5;
+	}
+
+	.aside .third-color{
+		order: 6;
+	}
+
+	.footer{
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 3%;
+	}
+
+	.footer ul li{
+		display: block;
+		text-align: left;
+	}
+
+	.page{
+		font-size: 10px;
+	}
+
+	.header .texto h1{
+		font-size: 14px;
+	}
+
+}	
+
+@media screen and (min-width: 700px) and (max-width: 1030px){
+	.page{
+		font-size: 10px;
+	}
+
+	.texto h1{
+		font-size: 18px;
+	}
+
+	footer ul li{
+		font-size: 14px;
+		margin: 5px 2px;
+		padding: 2px 5px;
+		padding-left: 0;
+	}
+
+}
+
+
+@media screen and (min-width: 1200px){
+	.container, .footer{
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
