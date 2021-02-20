@@ -140,17 +140,16 @@ hr {
     background-repeat: no-repeat;
 }
 
-.first-proj .photo {
+.second-proj .photo {
     background-image: url(../img/mem.png);
 }
 
-.second-proj .photo {
+.first-proj .photo {
     background-image: url(../img/pixel.png);
 }
 
 .third-proj .photo {
     background-image: url(../img/arcade.png);
-    margin: 100px 0 0;
 }
 
 .forth-proj .photo {
