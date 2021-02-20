@@ -150,7 +150,6 @@ hr {
 
 .third-proj .photo {
     background-image: url(../img/amazonCart.PNG);
-    margin: 100px 0 0;
 }
 
 .forth-proj .photo {
@@ -161,6 +160,10 @@ hr {
 .fifth-proj {
     margin-left: 3.5%;
     margin-right: 3.5%;
+}
+
+.forth-proj {
+    margin: 100px 0 0;
 }
 
 .proj .page {
