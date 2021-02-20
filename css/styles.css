@@ -141,23 +141,19 @@ hr {
 }
 
 .first-proj .photo {
-    background-image: url(../img/animal.png);
-}
-
-.second-proj .photo {
     background-image: url(../img/pixel.png);
 }
 
-.third-proj .photo {
+.second-proj .photo {
     background-image: url(../img/mem.png);
 }
 
-.forth-proj .photo {
+.third-proj .photo {
     background-image: url(../img/arcade.png);
     margin: 100px 0 0;
 }
 
-.fifth-proj .photo {
+.forth-proj .photo {
     background-image: url(../img/amazonCart.PNG);
     margin: 100px 0 0;
 }
