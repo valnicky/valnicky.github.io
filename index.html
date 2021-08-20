@@ -5,71 +5,76 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="https://s26.postimg.cc/9zwrq2j9l/favicon.png">
     <!-- .svg, .png or .ico images are recommended because they support transparency, useful for displaying logo / round icons 16*16PX -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="scss/styles.css">
 </head>
 
 <body>
     <div class="container">
-        <aside class="aside">
-            <div class="light-bleu square">
+        <header class="header">
+            <img class="me header__img" alt="">
+            <div class="texto header__text">
+                <h1 class="header__h1">Front-end developer</h1>
+                <h3 class="header__h3">Valeria Rimbu</h3>
             </div>
-            <p class="first-color">#02b3e4</p>
-
-            <div class="dark-bleu square">
-            </div>
-            <p class="second-color">#2d3c49</p>
-
-            <div class="bleu square">
-            </div>
-            <p class="third-color">#7d97ad</p>
-        </aside>
-
-        <section class="main">
-            <header class="header">
-                <img class="me" alt="">
-                <div class="texto">
-                    <h1>Front-end developer</h1>
-                    <h3>Valeria Rimbu</h3>
+        </header>
+        <div class="container__center">
+            <aside class="aside">
+                <div class="light-bleu square">
                 </div>
-            </header>
+                <p class="first-color">#02b3e4</p>
 
-            <hr>
-            <div class="img-section">
-            </div>
+                <div class="dark-bleu square">
+                </div>
+                <p class="second-color">#2d3c49</p>
 
-            <h2 class="featured">Featured Work</h2>
-            <div class="gallery">
+                <div class="bleu square">
+                </div>
+                <p class="third-color">#7d97ad</p>
+            </aside>
+            <section class="main">
 
-                <article class="first-proj proj">
-                    <div class="photo"></div>
-                    <h2>Memory Game</h2>
-                    <p class="page"><a href="http://htmlpreview.github.io/?https://github.com/valnicky/fend-project-memory-game/blob/master/index.html" target="_blank">https://github.com/valnicky/fend-project-memory-game</a></p>
-                </article>
+                <hr>
+                <div class="img-section">
+                </div>
 
-                <article class="second-proj proj">
-                    <div class="photo"></div>
-                    <h2>Arcade Game</h2>
-                    <p class="page"><a href="http://htmlpreview.github.io/?https://github.com/valnicky/frontend-nanodegree-arcade-game/blob/master/index.html" target="_blank">https://github.com/valnicky/frontend-nanodegree-arcade-game</a></p>
-                </article>
+                <h2 class="featured">Featured Work</h2>
+                <div class="gallery">
 
-                <article class="third-proj proj">
-                    <div class="photo"></div>
-                    <h2>Amazon Cart</h2>
-                    <p class="page"><a href="https://github.com/valnicky/pwj-reactjs-basics" target="_blank">https://github.com/valnicky/pwj-reactjs-basics</a></p>
-                </article>
+                    <article class="first-proj proj">
+                        <div class="photo"></div>
+                        <h2>Memory Game</h2>
+                        <p class="page"><a href="http://htmlpreview.github.io/?https://github.com/valnicky/fend-project-memory-game/blob/master/index.html" target="_blank">https://github.com/valnicky/fend-project-memory-game</a></p>
+                    </article>
 
-                <article class="forth-proj proj">
-                    <div class="photo"></div>
-                    <h2>Pixel Art Maker</h2>
-                    <p class="page"><a href="http://htmlpreview.github.io/?https://github.com/valnicky/Pixel-Art-Maker/blob/master/index.html" target="_blank">https://github.com/valnicky/Pixel-Art-Maker</a></p>
-                </article>
+                    <article class="second-proj proj">
+                        <div class="photo"></div>
+                        <h2>Arcade Game</h2>
+                        <p class="page"><a href="http://htmlpreview.github.io/?https://github.com/valnicky/frontend-nanodegree-arcade-game/blob/master/index.html" target="_blank">https://github.com/valnicky/frontend-nanodegree-arcade-game</a></p>
+                    </article>
 
-            </div>
-        </section>
+                    <article class="third-proj proj">
+                        <div class="photo"></div>
+                        <h2>Amazon Cart</h2>
+                        <p class="page"><a href="https://github.com/valnicky/pwj-reactjs-basics" target="_blank">https://github.com/valnicky/pwj-reactjs-basics</a></p>
+                    </article>
+
+                    <article class="forth-proj proj">
+                        <div class="photo"></div>
+                        <h2>Pixel Art Maker</h2>
+                        <p class="page"><a href="http://htmlpreview.github.io/?https://github.com/valnicky/Pixel-Art-Maker/blob/master/index.html" target="_blank">https://github.com/valnicky/Pixel-Art-Maker</a></p>
+                    </article>
+
+                </div>
+            </section>
+        </div>
+
+
+
     </div>
 
 
@@ -82,6 +87,7 @@
             <li><a href="https://join.skype.com/invite/cvjkWcuieOKO" target="_blank"><i class="fa fa-skype fa-2x" aria-hidden="true"></i>Skype</a></li>
         </ul>
     </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>
