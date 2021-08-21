@@ -193,22 +193,26 @@ body .proj .photo {
 }
 
 body .first-proj .photo {
-  background-image: url(../img/todolistAPI.PNG);
+  background-image: url(../img/match.PNG);
 }
 
 body .sec-proj .photo {
-  background-image: url(../img/mem.png);
+  background-image: url(../img/todolistAPI.PNG);
 }
 
 body .third-proj .photo {
-  background-image: url(../img/arcade.png);
+  background-image: url(../img/mem.png);
 }
 
 body .fourth-proj .photo {
-  background-image: url(../img/amazonCart.PNG);
+  background-image: url(../img/arcade.png);
 }
 
 body .fifth-proj .photo {
+  background-image: url(../img/amazonCart.PNG);
+}
+
+body .sixth-proj .photo {
   background-image: url(../img/pixel.png);
 }
 
