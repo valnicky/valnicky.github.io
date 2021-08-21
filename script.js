@@ -13,7 +13,7 @@ function init() {
     const green = "#235300";
     const selecttexth1 = document.querySelector('.container .header .texto h1');
     const selecttexth3 = document.querySelector('.container .header .texto h3');
-    const selecthr = document.querySelector('.container .container__center .main hr');
+    const selecthr = document.querySelector('.container .container__center .container2 hr');
     const borderimg = document.querySelector('.header__img img');
 
     changelightbleu.addEventListener('click', () => { changecolor(lightbleu) });
