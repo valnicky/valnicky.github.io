@@ -138,25 +138,35 @@ body {
         background-repeat: no-repeat;
     }
     .first-proj .photo {
-        background-image: url(../img/match.PNG);
+        background-image: url(../img/shopweb.PNG);
     }
     .sec-proj .photo {
-        background-image: url(../img/todolistAPI.PNG);
+        background-image: url(../img/match.PNG);
     }
     .third-proj .photo {
-        background-image: url(../img/mem.png);
+        background-image: url(../img/todolistAPI.PNG);
     }
     .fourth-proj .photo {
-        background-image: url(../img/arcade.png);
+        background-image: url(../img/mem.png);
     }
     .fifth-proj .photo {
-        background-image: url(../img/amazonCart.PNG);
+        background-image: url(../img/arcade.png);
     }
     .sixth-proj .photo {
+        background-image: url(../img/amazonCart.PNG);
+    }
+    .seventh-proj .photo {
         background-image: url(../img/pixel.png);
     }
+    .eighth-proj .photo {
+        background-image: url(../img/climbingPage.png);
+    }
+    .ninth-proj .photo {
+        background-image: url(../img/blackjack.png);
+    }
     .sec-proj,
-    .fifth-proj {
+    .fifth-proj,
+    .eighth-proj {
         margin-left: 3.5%;
         margin-right: 3.5%;
     }
@@ -247,10 +257,10 @@ body {
                         width: 45px;
                         height: 15px;
                         border-radius: 30%;
-                    }
-                    .square .text {
-                        margin-top: 1px;
-                        margin-left: 4px;
+                        .text {
+                            margin-top: 4px;
+                            margin-left: 11px;
+                        }
                     }
                 }
             }
