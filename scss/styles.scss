@@ -58,7 +58,7 @@ body {
             }
         }
         .featured {
-            margin: 5% 12%;
+            margin: 5% 12% 0;
             font-weight: 100;
             font-size: 2em;
         }
@@ -129,6 +129,7 @@ body {
     .proj {
         width: 31%;
         height: 200px;
+        margin: 5% 0;
     }
     .proj .photo {
         width: 100%;
@@ -137,18 +138,21 @@ body {
         background-repeat: no-repeat;
     }
     .first-proj .photo {
+        background-image: url(../img/todolistAPI.PNG);
+    }
+    .sec-proj .photo {
         background-image: url(../img/mem.png);
     }
-    .second-proj .photo {
+    .third-proj .photo {
         background-image: url(../img/arcade.png);
     }
-    .third-proj .photo {
+    .fourth-proj .photo {
         background-image: url(../img/amazonCart.PNG);
     }
-    .forth-proj .photo {
+    .fifth-proj .photo {
         background-image: url(../img/pixel.png);
     }
-    .second-proj,
+    .sec-proj,
     .fifth-proj {
         margin-left: 3.5%;
         margin-right: 3.5%;
@@ -180,7 +184,7 @@ body {
     }
     /*FOOTER*/
     footer {
-        margin: 200px 5% 5% 10%;
+        margin: 80px 5% 5% 10%;
         width: 80%;
         ul {
             text-align: center;
@@ -202,7 +206,7 @@ body {
             font-size: 0.6em;
             width: 100%;
             .featured {
-                margin-left: 3%;
+                margin: 18px;
                 font-size: 1.5em;
             }
             .header {
@@ -253,7 +257,10 @@ body {
                 margin: 0 auto;
                 .proj {
                     width: 100%;
-                    margin: 60px 0;
+                    margin: 35px 0;
+                    h2 {
+                        font-size: 1.2em;
+                    }
                 }
                 .proj:first-child {
                     margin-top: 1%;
