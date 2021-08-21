@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
   /*SECTION*/
+  /*GALLERY*/
   /*FOOTER*/
   /*MEDIA QUERIES*/
 }
@@ -36,14 +37,12 @@ body .container .header {
   margin: 5% 0 0;
 }
 
-body .container .header .header img {
-  background-image: url("../img/fotoPerf.jpg");
-}
-
-body .container .header hr {
-  width: 100%;
-  height: 3px;
-  background: #b1b5b7;
+body .container .header img {
+  background-image: url(../img/fotoPerf.jpg);
+  width: 127px;
+  height: 123px;
+  border-radius: 50%;
+  border: 3px solid #7d97ad;
 }
 
 body .container .header .texto h1 {
@@ -59,16 +58,14 @@ body .container .header .texto h3 {
   font-weight: 100;
 }
 
-body .container .header .header .texto {
-  width: 90%;
-  text-align: right;
+body .container .header .header__text {
   line-height: 20px;
+  width: 70%;
+  margin-left: 20%;
 }
 
-body .container .header .header .me {
-  width: 120px;
-  border-radius: 50%;
-  height: 120px;
+body .container .header .header__img {
+  width: 25%;
 }
 
 body .container .header .featured {
@@ -89,8 +86,10 @@ body .container .container__center {
 }
 
 body .container .container__center .aside {
-  width: 15%;
-  margin: 180px 2% 0 2%;
+  margin-left: 40px;
+  width: 10%;
+  margin-top: -100px;
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -109,7 +108,8 @@ body .container .container__center .aside .aside .square {
 
 body .container .container__center .aside .aside .first-color,
 body .container .container__center .aside .aside .second-color,
-body .container .container__center .aside .aside .third-color {
+body .container .container__center .aside .aside .third-color,
+body .container .container__center .aside .aside .fourth-color {
   font-size: 1.6em;
   margin-top: 1%;
   margin-bottom: 15%;
@@ -117,36 +117,63 @@ body .container .container__center .aside .aside .third-color {
 }
 
 body .container .container__center .aside .light-bleu {
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+  border-radius: 40%;
   background-color: #02b3e4;
-  width: 50px;
-  height: 50px;
 }
 
 body .container .container__center .aside .dark-bleu {
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+  border-radius: 40%;
   background-color: #2d3c49;
-  width: 50px;
-  height: 50px;
+}
+
+body .container .container__center .aside .bleugris {
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+  border-radius: 40%;
+  background-color: #7d97ad;
 }
 
 body .container .container__center .aside .bleu {
-  background-color: #7d97ad;
-  width: 50px;
-  height: 50px;
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+  border-radius: 40%;
+  background-color: #005370;
+}
+
+body .container .container__center .aside .green {
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+  border-radius: 40%;
+  background-color: #235300;
 }
 
 body .main {
-  width: 75%;
-  /*GALLERY*/
+  width: 80%;
 }
 
-body .main .img-section {
+body .main hr {
+  width: 100%;
+  height: 3px;
+  background: #b1b5b7;
+}
+
+body .main .main__img {
+  height: 200px;
   margin-top: 4%;
   width: 100%;
-  height: 500px;
   background-image: url(../img/proj.png);
 }
 
-body .main .gallery {
+body .gallery {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -159,59 +186,59 @@ body .main .gallery {
   width: 100%;
 }
 
-body .main .proj {
+body .proj {
   width: 31%;
   height: 200px;
 }
 
-body .main .proj .photo {
+body .proj .photo {
   width: 100%;
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-body .main .first-proj .photo {
+body .first-proj .photo {
   background-image: url(../img/mem.png);
 }
 
-body .main .second-proj .photo {
+body .second-proj .photo {
   background-image: url(../img/arcade.png);
 }
 
-body .main .third-proj .photo {
+body .third-proj .photo {
   background-image: url(../img/amazonCart.PNG);
 }
 
-body .main .forth-proj .photo {
+body .forth-proj .photo {
   background-image: url(../img/pixel.png);
 }
 
-body .main .second-proj,
-body .main .fifth-proj {
+body .second-proj,
+body .fifth-proj {
   margin-left: 3.5%;
   margin-right: 3.5%;
 }
 
-body .main .forth-proj {
+body .forth-proj {
   margin: 100px 0 0;
 }
 
-body .main .proj .page {
+body .proj .page {
   text-align: center;
   margin: 0 0 20% 0;
 }
 
-body .main .proj a:link {
+body .proj a:link {
   color: #30577c;
   text-decoration: none;
 }
 
-body .main .proj a:hover {
+body .proj a:hover {
   color: #b1b5b7;
 }
 
-body .main .proj h2 {
+body .proj h2 {
   color: #30577c;
   text-align: center;
   font-weight: 100;
@@ -219,7 +246,7 @@ body .main .proj h2 {
   margin-bottom: 1%;
 }
 
-body .main .proj p {
+body .proj p {
   overflow: hidden;
   cursor: pointer;
 }
