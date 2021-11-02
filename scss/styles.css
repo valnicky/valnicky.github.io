@@ -193,15 +193,15 @@ body .proj .photo {
 }
 
 body .first-proj .photo {
-  background-image: url(../img/shopweb.PNG);
+  background-image: url(../img/shopweb.png);
 }
 
 body .sec-proj .photo {
-  background-image: url(../img/match.PNG);
+  background-image: url(../img/match.png);
 }
 
 body .third-proj .photo {
-  background-image: url(../img/todolistAPI.PNG);
+  background-image: url(../img/todolistAPI.png);
 }
 
 body .fourth-proj .photo {
@@ -213,7 +213,7 @@ body .fifth-proj .photo {
 }
 
 body .sixth-proj .photo {
-  background-image: url(../img/amazonCart.PNG);
+  background-image: url(../img/amazonCart.png);
 }
 
 body .seventh-proj .photo {
