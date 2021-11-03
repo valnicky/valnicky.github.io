@@ -167,7 +167,7 @@ body {
         background-image: url(../img/matchgame.png);
     }
     .third-proj .photo {
-        background-image: url(../img/todolistAPI.png);
+        background-image: url(../img/todolistapi.jpg);
     }
     .fourth-proj .photo {
         background-image: url(../img/mem.png);
@@ -288,13 +288,21 @@ body {
                     }
                 }
             }
+            .container_icons {
+                .list_icons {
+                    justify-content: center;
+                }
+                .list_icons img {
+                    width: 30px;
+                }
+            }
             .gallery {
                 width: 95%;
                 flex-direction: column;
                 margin: 0 auto;
                 .proj {
                     width: 100%;
-                    margin: 35px 0;
+                    margin: 45px 0;
                     h2 {
                         font-size: 1.2em;
                     }
@@ -311,7 +319,11 @@ body {
                 width: 90%;
             }
             ul {
-                margin-left: 15%;
+                margin: 0 auto;
+                width: 200px;
+                display: flex;
+                flex-direction: column;
+                padding: 0;
             }
             ul li {
                 display: block;
@@ -325,6 +337,15 @@ body {
         }
         .texto h1 {
             font-size: 18px;
+        }
+        .proj {
+            margin-bottom: 15%;
+        }
+        .list_icons {
+            justify-content: center;
+        }
+        .list_icons img {
+            width: 60px;
         }
         footer ul li {
             font-size: 14px;

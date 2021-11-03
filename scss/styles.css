@@ -239,7 +239,7 @@ body .sec-proj .photo {
 }
 
 body .third-proj .photo {
-  background-image: url(../img/todolistAPI.png);
+  background-image: url(../img/todolistapi.jpg);
 }
 
 body .fourth-proj .photo {
@@ -382,6 +382,14 @@ body footer a {
     margin-top: 4px;
     margin-left: 11px;
   }
+  body .container .container_icons .list_icons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .container .container_icons .list_icons img {
+    width: 30px;
+  }
   body .container .gallery {
     width: 95%;
     -webkit-box-orient: vertical;
@@ -392,7 +400,7 @@ body footer a {
   }
   body .container .gallery .proj {
     width: 100%;
-    margin: 35px 0;
+    margin: 45px 0;
   }
   body .container .gallery .proj h2 {
     font-size: 1.2em;
@@ -408,7 +416,16 @@ body footer a {
     width: 90%;
   }
   body .footer ul {
-    margin-left: 15%;
+    margin: 0 auto;
+    width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
   }
   body .footer ul li {
     display: block;
@@ -422,6 +439,17 @@ body footer a {
   }
   body .texto h1 {
     font-size: 18px;
+  }
+  body .proj {
+    margin-bottom: 15%;
+  }
+  body .list_icons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .list_icons img {
+    width: 60px;
   }
   body footer ul li {
     font-size: 14px;
