@@ -210,6 +210,8 @@ body .proj .proj_icons {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 10px 0 0 0;
 }
 
