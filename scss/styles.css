@@ -235,7 +235,7 @@ body .first-proj .photo {
 }
 
 body .sec-proj .photo {
-  background-image: url(../img/matchgame.png);
+  background-image: url(../img/climbing.png);
 }
 
 body .third-proj .photo {
@@ -259,11 +259,15 @@ body .seventh-proj .photo {
 }
 
 body .eighth-proj .photo {
-  background-image: url(../img/climbing.png);
+  background-image: url(../img/matchgame.png);
 }
 
 body .ninth-proj .photo {
   background-image: url(../img/blackjack.jpg);
+}
+
+body .tenth-proj .photo {
+  background-image: url(../img/netflix.png);
 }
 
 body .sec-proj,

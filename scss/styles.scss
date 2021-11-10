@@ -137,20 +137,20 @@ body {
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
-        .proj {
-            width: 31%;
-            height: 200px;
-            margin: 5% 0;
-            .proj_icons {
-                display: flex;
-                justify-content: center;
-                flex-wrap: wrap;
-                margin: 10px 0 0 0;
-                img {
-                    width: 35px;
-                    margin-left: 4px;
-                    margin-right: 4px;
-                }
+    }
+    .proj {
+        width: 31%;
+        height: 200px;
+        margin: 5% 0;
+        .proj_icons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 10px 0 0 0;
+            img {
+                width: 35px;
+                margin-left: 4px;
+                margin-right: 4px;
             }
         }
     }
@@ -164,7 +164,7 @@ body {
         background-image: url(../img/shopweb.png);
     }
     .sec-proj .photo {
-        background-image: url(../img/matchgame.png);
+        background-image: url(../img/climbing.png);
     }
     .third-proj .photo {
         background-image: url(../img/todolistapi.jpg);
@@ -182,7 +182,7 @@ body {
         background-image: url(../img/pixel.png);
     }
     .eighth-proj .photo {
-        background-image: url(../img/climbing.png);
+        background-image: url(../img/matchgame.png);
     }
     .ninth-proj .photo {
         background-image: url(../img/blackjack.jpg);
