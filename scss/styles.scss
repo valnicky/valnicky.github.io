@@ -137,20 +137,20 @@ body {
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
-    }
-    .proj {
-        width: 31%;
-        height: 200px;
-        margin: 5% 0;
-        .proj_icons {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin: 10px 0 0 0;
-            img {
-                width: 35px;
-                margin-left: 4px;
-                margin-right: 4px;
+        .proj {
+            width: 31%;
+            height: 200px;
+            margin: 5% 0;
+            .proj_icons {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin: 10px 0 0 0;
+                img {
+                    width: 35px;
+                    margin-left: 4px;
+                    margin-right: 4px;
+                }
             }
         }
     }
@@ -187,7 +187,7 @@ body {
     .ninth-proj .photo {
         background-image: url(../img/blackjack.jpg);
     }
-    .ninth-proj .photo {
+    .tenth-proj .photo {
         background-image: url(../img/netflix.png);
     }
     .sec-proj,
