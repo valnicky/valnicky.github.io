@@ -1,2 +1,2 @@
-This is my Portfolio.
-[link to](https://valnicky.github.io/)
+This is my Portfolio:
+[https://valnicky.github.io/](https://valnicky.github.io/)
