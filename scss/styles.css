@@ -247,26 +247,22 @@ body .fourth-proj .photo {
 }
 
 body .fifth-proj .photo {
-  background-image: url(../img/arcade.png);
-}
-
-body .sixth-proj .photo {
   background-image: url(../img/amazonCart.png);
 }
 
-body .seventh-proj .photo {
+body .sixth-proj .photo {
   background-image: url(../img/pixel.png);
 }
 
-body .eighth-proj .photo {
+body .seventh-proj .photo {
   background-image: url(../img/matchgame.png);
 }
 
-body .ninth-proj .photo {
+body .eighth-proj .photo {
   background-image: url(../img/blackjack.jpg);
 }
 
-body .tenth-proj .photo {
+body .ninth-proj .photo {
   background-image: url(../img/netflix.png);
 }
 
