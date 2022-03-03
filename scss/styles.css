@@ -322,6 +322,10 @@ body footer ul li {
   letter-spacing: 3px;
 }
 
+body footer i {
+  color: #a9aeb1;
+}
+
 body footer a {
   text-decoration: none;
   color: #505253;
