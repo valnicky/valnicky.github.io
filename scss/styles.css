@@ -35,6 +35,7 @@ body .container .header {
       -ms-flex-direction: row;
           flex-direction: row;
   margin: 5% 0 0;
+  color: #3f4e5a;
 }
 
 body .container .header img {
@@ -49,11 +50,10 @@ body .container .header .texto h1 {
   font-size: 2em;
   letter-spacing: 2.5px;
   font-weight: 100;
-  color: #7d97ad;
   font-weight: 100;
 }
 
-body .container .header .texto h3 {
+body .container .header .texto h2 {
   letter-spacing: 2.5px;
   font-weight: 100;
 }
@@ -126,12 +126,12 @@ body .container .container__center .aside .dark-bleu {
   background-color: #2d3c49;
 }
 
-body .container .container__center .aside .bleugris {
+body .container .container__center .aside .red-dark {
   cursor: pointer;
   width: 70px;
   height: 30px;
   border-radius: 40%;
-  background-color: #7d97ad;
+  background-color: #b3311c;
 }
 
 body .container .container__center .aside .bleu {

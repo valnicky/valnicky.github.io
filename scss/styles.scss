@@ -1,6 +1,6 @@
 $lightbleu: #02b3e4;
 $darkbleu :#2d3c49;
-$bleugris: #7d97ad;
+$reddark: #b3311c;
 $bleu: #005370;
 $green: #235300;
 @mixin colors() {
@@ -29,6 +29,7 @@ body {
             display: flex;
             flex-direction: row;
             margin: 5% 0 0;
+            color: #3f4e5a;
             img {
                 background-image: url(../img/fotoPerf.jpg);
                 width: 127px;
@@ -40,10 +41,9 @@ body {
                 font-size: 2em;
                 letter-spacing: 2.5px;
                 font-weight: 100;
-                color: #7d97ad;
                 font-weight: 100;
             }
-            .texto h3 {
+            .texto h2 {
                 letter-spacing: 2.5px;
                 font-weight: 100;
             }
@@ -89,9 +89,9 @@ body {
                     @include colors();
                     background-color: $darkbleu;
                 }
-                .bleugris {
+                .red-dark {
                     @include colors();
-                    background-color: $bleugris;
+                    background-color: $reddark;
                 }
                 .bleu {
                     @include colors();
