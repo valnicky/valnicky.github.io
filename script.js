@@ -6,7 +6,7 @@ function init() {
     const changereddark = document.querySelector('.red-dark.square');
     const changegreen = document.querySelector('.green.square');
 
-    const lightbleu = "#0aa6d1";
+    const lightbleu = "#1c8baa";
     const darkbleu = "#2d3c49";
     const reddark = "#b3311c";
     const green = "#235300";
